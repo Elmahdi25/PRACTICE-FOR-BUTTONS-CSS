@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUTTONS</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<style>
+    .subscribe-button {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 2px;
+        cursor: pointer;
+        text-transform: uppercase;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+    }
+
+    .subscribe-button:hover {
+        opacity: 0.7;
+    }
+
+    .subscribe-button:active {
+        opacity: 0.4;
+    }
+
+    .join-button {
+        background-color: white;
+        color: rgb(32, 147, 255);
+        border: 2px solid;
+        height: 36px;
+        width: 70px;
+        border-radius: 2px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: background-color 0.15s, color 0.15s;
+    }
+
+    .join-button:hover {
+        background-color: rgb(32, 147, 255);
+        color: white;
+        border: 2px solid rgb(32, 147, 255);
+        border-radius: 2px;
+    }
+
+    .join-button:active {
+        opacity: 0.8;
+    }
+
+    .tweet-button {
+        margin-left: 8px;
+        background-color: rgb(32, 147, 255);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 80px;
+        border-radius: 20px;
+        cursor: pointer;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 15px;
+        transition: box-shadow 0.15s;
+    }
+
+    .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .request-now-button {
+        color: white;
+        background-color: black;
+        border: none;
+        height: 50px;
+        width: 140px;
+        font-size: medium;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+    }
+
+    .request-now-button:hover {
+        opacity: 0.8;
+    }
+
+
+
+    .add-to-cart-button {
+        color: black;
+        background-color: rgb(255, 216, 20);
+        border: none;
+        font-size: large;
+        height: 40px;
+        width: 200px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.15s;
+    }
+
+    .add-to-cart-button:hover {
+        background-color: rgb(193, 162, 4);
+    }
+
+    .add-to-cart-button:active {
+        opacity: 0.8;
+    }
+
+    .sign-up-button {
+        color: white;
+        background-color: rgb(46, 164, 79);
+        height: 40px;
+        width: 100px;
+        border-radius: 8px;
+        border: none;
+        font-weight: bold;
+        font-size: medium;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+    }
+
+    .sign-up-button:hover {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .get-started-button {
+        cursor: pointer;
+        color: white;
+        background-color: rgb(121, 82, 179);
+        height: 45px;
+        width: 150px;
+        border-radius: 8px;
+        border: none;
+        font-weight: bold;
+        font-size: medium;
+        transition: background-color 0.15s;
+    }
+
+    .get-started-button:hover {
+        background-color: rgb(78, 48, 123);
+    }
+
+    .downoald-button {
+        cursor: pointer;
+        color: rgb(108, 117, 125);
+        background-color: white;
+        height: 45px;
+        width: 150px;
+        border-radius: 8px;
+        border: 2px solid rgb(108, 117, 125);
+        font-weight: bold;
+        font-size: medium;
+        transition: background-color 0.15s, color 0.15s;
+    }
+
+    .downoald-button:hover {
+        background-color: rgb(108, 117, 125);
+        color: white;
+    }
+
+    div {
+        margin-top: 5px;
+    }
+
+    .apply-button {
+        cursor: pointer;
+        color: white;
+        background-color: rgb(10, 102, 194);
+        border: none;
+        font-size: large;
+        font-weight: bold;
+        height: 45px;
+        width: 280px;
+        border-radius: 40px;
+        transition: background-color 0.15s;
+    }
+
+    .apply-button:hover {
+        background-color: rgb(8, 77, 147);
+    }
+
+    .save-button {
+        color: rgb(10, 102, 194);
+        background-color: white;
+        border: 1px solid rgb(10, 102, 194);
+        font-size: large;
+        font-weight: bold;
+        height: 45px;
+        width: 100px;
+        border-radius: 40px;
+        transition: border-width 0.2s, background-color 0.2s;
+    }
+
+    .save-button:hover {
+        border-width: 2px;
+        background-color: rgb(132, 201, 246);
+    }
+
+    .back-link {
+        color: rgb(0, 113, 133);
+        font-size: large;
+        font-weight: 400;
+        transition: color 0.15s;
+    }
+
+    .back-link:hover {
+        color: red;
+    }
+
+    .stock {
+        color: rgb(0, 118, 0);
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .free {
+        font-size: 30px;
+    }
+
+    .buy-button {
+        color: black;
+        background-color: rgb(255, 164, 28);
+        border: none;
+        font-size: large;
+        font-weight: bold;
+        height: 40px;
+        width: 200px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+    }
+
+    .buy-button:hover {
+        background-color: rgb(196, 122, 11);
+    }
+
+    .buy-button:active {
+        opacity: 0.9;
+    }
+</style>
+<div>
+
+    <div>
+        <button class="subscribe-button">subscribe</button>
+    </div>
+
+    <div>
+        <button class="join-button">join</button>
+    </div>
+
+    <div>
+        <button class="tweet-button">Tweet</button>
+    </div>
+
+    <div>
+        <button class="request-now-button">Request now</button>
+
+    </div>
+
+    <div>
+        <button class="add-to-cart-button">Add to Cart</button>
+    </div>
+
+    <div>
+        <button class="sign-up-button">Sign up</button>
+
+    </div>
+
+    <div>
+        <button class="get-started-button">Get started</button>
+        <button class="downoald-button">Downoald</button>
+    </div>
+
+
+    <div>
+        <button class="apply-button">Apply on company website</button>
+        <button class="save-button">Save</button>
+    </div>
+</div>
+<div>
+    <h1>EXERCICE 2</h1>
+</div>
+<div>
+    <a href="" class="back-link">Back to Amazon</a>
+    <h1>Nike Black Running Shoes</h1>
+    <p class="stock">$39 - in stock.</p>
+    <p class="free">Free delivery tomorrow</p>
+    <div>
+        <button class="add-to-cart-button">Add to Cart</button>
+        <button class="buy-button">Buy now</button>
+    </div>
+</div>
+<hr>
+<div>
+    <style>
+        .back-next {
+            padding: 7px 7px;
+
+        }
+
+        #back {
+            margin-right: 5px;
+        }
+
+        .slide {
+            margin-right: 5px;
+        }
+    </style>
+    <button id="back" class="back-next">Back</button>
+    <a href="#" class="slide">1</a>
+    <a href="#" class="slide">2</a>
+    <a href="#" class="slide">3</a>
+    <a href="#" class="slide">4</a>
+    <a href="#" class="slide">5</a>
+    <button id="next" class="back-next">Next</button>
+</div>
+<hr>
+<div>
+    <style>
+        .stretch {
+            cursor: pointer;
+            color: white;
+            background-color: green;
+            border: none;
+            transition: padding 0.3s;
+        }
+
+        .stretch:hover {
+            padding: 10px 20px;
+        }
+    </style>
+    <button class="stretch">Stretch</button>
+</div>
+<hr>
+<div>
+    <style>
+        .shadow {
+            padding: 8px 16px;
+            cursor: pointer;
+            color: white;
+            background-color: green;
+            border: none;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.15s margin 0.15s;
+
+        }
+
+        .shadow:active {
+            margin: 2px 2px;
+            box-shadow: 0 0 0;
+        }
+    </style>
+    <button class="shadow">Shadow</button>
+</div>
+<hr>
+<div>
+    <style>
+       .choice{
+        color: white;
+        background-color: green;
+        border: none;
+        padding: 8px 15px;
+        margin-right: 10px;
+        margin-left: 10px;
+
+        transition: padding 0.15s margin 0.15s;
+       }
+       .choice:hover{
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 0;
+        margin-right: 0;
+       }
+
+      
+    </style>
+    <button class="choice">One</button>
+    <button class="choice">Two</button>
+    <button class="choice">Three</button>
+</div>
